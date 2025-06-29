@@ -17,3 +17,13 @@ resource "azurerm_resource_group" "example2" {
   name     = "example-resources1"
   location = "West Europe"
 }
+
+resource "azure_storage_account" "example2" {
+  name                     = "examplestorageacct1"
+  resource_group_name      = "example-resources"
+  location                 = "West Europe"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+
+ 
+}
