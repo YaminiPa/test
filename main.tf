@@ -1,3 +1,4 @@
+
 resource "azure_storage_account" "example" {
   name                     = "examplestorageacct"
   resource_group_name      = "example-resources"
@@ -13,7 +14,9 @@ resource "azurerm_resource_group" "example" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "example2" {
-  name     = "example-resources1"
+
+
+resource "azurerm_resource_group" "example4" {
+  name     = "example-resources123"
   location = "West Europe"
 }
