@@ -32,8 +32,8 @@ resource "azure_storage_account" "example" {
  
 }
 
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "example12" {
+  name     = "example-resources123"
   location = "West Europe"
 }
 
